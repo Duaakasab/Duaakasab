@@ -1,0 +1,5 @@
+ogrenciNotlari={"arzu":70,"erdal":35,"sumeyra":80,"dua":90,"meryem":100,"yaren":75}
+ogrenciNotlari["duaa"]=80
+print(ogrenciNotlari)
+print(ogrenciNotlari.values())
+
