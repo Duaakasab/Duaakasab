@@ -1,0 +1,2 @@
+notlar={"erdal":{"Mat":45,"Eng":78,"Phys":78,"Science":77},"arzu":{"Mat":45,"Eng":78,"Phys":78,"Science":77}}
+print(notlar["erdal"]["Mat"])
