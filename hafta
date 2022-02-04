@@ -1,0 +1,7 @@
+hafta=["pazartesi","salı","çarşamba","perşembe","cuma"]
+hafta_sonu=["cumartesi","pazar"]
+hafta.append(hafta_sonu)
+print(hafta)
+hafta=["pazartesi","salı","çarşamba","perşembe","cuma"]
+hafta.extend(hafta_sonu)
+print(hafta)
