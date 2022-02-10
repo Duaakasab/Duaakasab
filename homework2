@@ -1,0 +1,3 @@
+b=input("erter your sentenc ")
+c=b.split(' ')
+print(len(c))
