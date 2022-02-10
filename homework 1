@@ -1,8 +1,9 @@
-a=1
-c=0
-while a<=5:
-        for i in range(0,5):
-            b=int(input("enter the number:"))
-            c=c+b
-            a=a+1
-print(c)
+number=input("please enter your numbers")
+total=0
+try:
+    a=int(number)
+    for i in number:
+        total=total+int(i)
+    print(total)
+except ValueError:
+    print("enter only numbers")
