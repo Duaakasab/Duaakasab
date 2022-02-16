@@ -1,1 +1,12 @@
 
+def sayi1(a):
+    print("cift sayi")
+def sayi(a):
+    print("tek sayi")
+a=int(input("sayi gir :"))
+if a%2==0:
+    b=sayi1(a)
+    print(b)
+else:
+    c=sayi(a)
+    print(c)
