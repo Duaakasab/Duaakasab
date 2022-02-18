@@ -1,0 +1,7 @@
+def denklem(a,b,c):
+    return a+(b*c**2)
+a=int(input(" a gir :"))
+b=int(input(" b gir :"))
+c=int(input(" c gir :"))
+d=denklem(a,b,c)
+print("d= ",d)
