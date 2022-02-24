@@ -1,0 +1,6 @@
+a=int(input(" başlangıç sayısı : "))
+b=int(input(" bitiş sayısı : "))
+def orta(a,b):
+    return (a+b)/2
+c=orta(a,b)
+print("ortalama : ",c)
